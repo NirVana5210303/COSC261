@@ -1,0 +1,9 @@
+read n;
+sum := 0;
+z := 2;
+while not n <= 0 and z >= 0 do
+  sum := sum + n;
+  n := n - 1;
+  z := z - 1
+end;
+write sum?

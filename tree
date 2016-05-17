@@ -1,0 +1,23 @@
+Statements
+    Read
+        n
+    Assign
+        sum
+        0
+    While
+        GRTR
+            n
+            0
+        Statements
+            Assign
+                sum
+                ADD
+                    sum
+                    n
+            Assign
+                n
+                SUB
+                    n
+                    1
+    Write
+        sum
